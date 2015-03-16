@@ -8,3 +8,18 @@ background-color: #005E7F;
     width: auto;
 
 }
+footer {
+    height: 50px;
+    position: absolute;
+    background-color: #005E7F;    
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px; 
+}
+
+footer:before {
+    display: table;
+    height: 0;
+ 
+}
+

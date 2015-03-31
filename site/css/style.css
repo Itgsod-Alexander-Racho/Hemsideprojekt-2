@@ -1,11 +1,17 @@
-html, body {
-  height: 100%;
-}
 
-header {
-background-color: #005E7F;
-    height: 120px;
+html, body {
+    padding: 20px;
+}
+footer {
+    height: 70px;
+    
+    background-color: #005E7F;    
     width: auto;
+
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 1.2);
+-moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 1.2);
+box-shadow:         0px 3px 5px rgba(100, 100, 100, 1.2);
+
 
 }
 footer {
@@ -17,9 +23,20 @@ footer {
     margin-top: 10px; 
 }
 
-footer:before {
-    display: table;
-    height: 0;
- 
+
+#content {
+    height: 520px;
+    background-color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
 

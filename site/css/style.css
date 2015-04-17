@@ -1,12 +1,14 @@
 
 html, body {
     margin: 0px;
-    background: url("img/school.png");
+    
+    font-family: 'Raleway', sans-serif;
+  background:#cd870e;
 }
 
 
 .container{
-    padding: 5px;
+    padding: 10px;
     background-color: white;
     height: 100%;
     -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 1.2);
@@ -66,9 +68,79 @@ box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
     color: white;
 }
 
+#important_text {
+    color: #F44336;
+}
+
+nav a {
+    margin: 15px 25px;
+    position: relative;
+    display: inline-block;
+    margin: 2px;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 1.2em;
+}
+
+.effect a {
+    margin:;
+    padding:;
+}
+
+.effect a::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    content: '';
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    transition: top 0.3s;
+}
+
+.effect a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background: #fff;
+    content: '';
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
+.effect a:hover::before {
+    top: 100%;
+    opacity: 1;
+}
+
+.effect a:hover::after {
+    height: 100%;
+}
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
 #myCarousel {
     display:block;
       margin-top: 40px;
+          -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+-moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
    }
 
    .carousel-caption {
@@ -94,8 +166,8 @@ box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
    #slide3 {
       background: url('https://tatica.fedorapeople.org/Themes/F12/wallpaper-mosaico2.svg') top center no-repeat;
    }
-i.imgur.com
-i.imgur.com
+
+
 
 
 

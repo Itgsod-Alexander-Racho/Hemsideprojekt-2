@@ -3,7 +3,7 @@ html, body {
     margin: 0px;
     
     font-family: 'Raleway', sans-serif;
-  background:#CFD8DC;
+    background:#CFD8DC;
 }
 
 
@@ -22,19 +22,17 @@ footer {
     
     background-color: #2196F3;    
     width: auto;
-    display: inline-block; width: 100%;
+    display: inline-block; 
+    width: 100%;
 
     -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 1.2);
--moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 1.2);
-box-shadow:         0px 3px 5px rgba(100, 100, 100, 1.2);
+    -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 1.2);
+    box-shadow:         0px 3px 5px rgba(100, 100, 100, 1.2);
 
 
 }
 #Copyright_color {
     color: white;
-    margin
-
-
 }
 
 nav {
@@ -43,14 +41,15 @@ nav {
     width: auto;
     background-color: #2196F3; 
 
-    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
--moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
-box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 1.2);
+    -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 1.2);
+    box-shadow:         0px 3px 5px rgba(100, 100, 100, 1.2);
 
 }
 
 nav > ul > li > a {
-text-decoration: none !important;
+
+    text-decoration: none !important;
 }
 
 
@@ -63,6 +62,30 @@ text-decoration: none !important;
 .logo {
     float: left;
 }
+
+.left_side_container { 
+    width: auto;
+    width: 48%;
+    float: left;
+    height: 900px
+
+}
+
+.right_side_container {
+    
+    width: auto;
+    width: 48%;
+    float: left;
+    height: 900px;
+}
+
+.vr {
+    border-left: 1px solid gray;
+    height: 900px;
+    float: left;
+
+}
+
 
 #menu_bar > li {
     float: left;
@@ -77,27 +100,28 @@ text-decoration: none !important;
 }
 
 .link-3 {
-  transition: 0.2s;
-  color: #ffffff;
-  font-size: 17px;
-  text-decoration: none;
-  padding: 0 10px;
-  margin: 0 10px;
+    transition: .2s;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
 }
 .link-3:hover {
-  background-color: #ffffff;
-  color: #2196F3;
-  padding: 15px 10px;
-  height: 70px;
+    background-color: #ffffff;
+    color: #2196F3;
+    padding: 30px 10px;
+    height: 70px;
 }
 
 
 #myCarousel {
     display: inline-block; width: 100%;
-      margin-top: 55px;
-          -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
--moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
-box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+    margin-top: 50px;
+          
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+    -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+    box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
    }
 
    .carousel-caption {
@@ -109,7 +133,7 @@ box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
    }
 
    #myCarousel .item {
-      height: 400px;
+      height: 420px;
 
    }
 
@@ -124,6 +148,7 @@ box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
    #slide3 {
       background: url('https://tatica.fedorapeople.org/Themes/F12/wallpaper-mosaico2.svg') top center no-repeat;
    }
+
 
 
 

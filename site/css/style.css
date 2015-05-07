@@ -54,6 +54,7 @@ nav > ul > li > a {
 
 
 #content {
+  text-align: center;
     height: 520px;
     background-color: white;
 }
@@ -80,12 +81,18 @@ nav > ul > li > a {
 }
 
 .vr {
-    border-left: 1px solid gray;
     height: 900px;
     float: left;
 
 }
 
+#kurser{
+  height: 165px;
+}
+
+#kurser2{
+  height: 214px;
+}
 
 #menu_bar > li {
     float: left;

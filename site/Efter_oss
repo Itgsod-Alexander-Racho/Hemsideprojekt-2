@@ -30,11 +30,13 @@
             <a href="Efter_oss" class="link-3">Efter oss</a>
           </li>
           <li>
-            <a href="kontakt" class="link-3">Kontakt</a>
+            <a href="kontakt  " class="link-3">Kontakt</a>
           </li>
         </ul>
       </nav>
       <div id="content">
+        <img src="../misc/jobbbild.jpg"   alt="jobbbild">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint temporibus porro earum praesentium tempora, blanditiis quas deserunt quae nihil animi error accusamus nesciunt! Enim itaque ut aut sapiente voluptates reiciendis, ullam nisi suscipit corrupti quibusdam velit, a laboriosam! Modi neque incidunt dolore possimus dolorem voluptate inventore dolores quod atque hic ratione, tempora, natus perspiciatis eos corporis culpa aspernatur at mollitia. Natus dolorum aliquam aut at, consequuntur sit veritatis minima laudantium voluptatibus. Vitae velit illum, maxime asperiores sequi natus, autem temporibus. Fugit nobis unde adipisci ad dolorum cumque suscipit possimus repellat quaerat necessitatibus maiores dolores, at sapiente perspiciatis nesciunt consequuntur minus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur pariatur tempore ut hic beatae excepturi modi cumque commodi placeat maxime! Illo, magni ullam facere odit, tenetur earum quod, incidunt dolores nisi aliquam necessitatibus! Unde excepturi voluptatum doloremque earum. Sapiente distinctio repellendus dignissimos ipsum nemo, quae numquam tempore cum libero tenetur eveniet, error mollitia, nam impedit incidunt corporis ipsa suscipit fugit maxime! Quod excepturi ipsam ea quo ut dolor accusantium, ab amet id harum a enim quasi placeat beatae eligendi repudiandae. Cupiditate voluptatum provident recusandae ullam esse, tempora eum distinctio voluptatem totam, iure ipsum molestias hic quasi expedita natus tenetur perspiciatis?</p>
         
       </div>
       

@@ -52,6 +52,10 @@ nav > ul > li > a {
     text-decoration: none !important;
 }
 
+.kontakta_oss {
+  margin-left: 180px;
+}
+
 
 #content {
   text-align: center;
@@ -62,6 +66,30 @@ nav > ul > li > a {
 
 .logo {
     float: left;
+}
+
+#border_logga {
+  margin-top: 55px;
+  float: left;
+  border: 2px solid black;
+}
+
+.content_info {
+  margin-top: 50px; 
+  text-align: left;
+  max-width: 400px;
+  max-height: 267px;
+  float: left;
+  margin-left: 40px;
+ 
+}
+
+#content > h2 {
+  float: left;
+}
+
+.Email_margin_copyright {
+  margin-left: 150px;
 }
 
 .left_side_container { 
@@ -102,7 +130,7 @@ nav > ul > li > a {
 
 #menu_bar > li {
     float: left;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-top: 23px;
     list-style: none;
     color: white;

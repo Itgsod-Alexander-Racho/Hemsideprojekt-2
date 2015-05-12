@@ -31,6 +31,7 @@ footer {
 
 
 }
+
 #Copyright_color {
     color: white;
 }
@@ -51,6 +52,37 @@ nav > ul > li > a {
 
     text-decoration: none !important;
 }
+
+.sprite {
+    background-image: url(../misc/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Samha_lleBild {
+    width: 290px;
+    height: 165px;
+    background-position: -5px -5px;
+}
+
+.sprite-ekonomibild {
+    width: 290px;
+    height: 165px;
+    background-position: -305px -5px;
+}
+
+.sprite-jobbbild {
+    width: 664px;
+    height: 376px;
+    background-position: -5px -180px;
+}
+
+.sprite-logga_idrott {
+    width: 290px;
+    height: 165px;
+    background-position: -605px -5px;
+}
+
 
 .kontakta_oss {
   margin-left: 180px;

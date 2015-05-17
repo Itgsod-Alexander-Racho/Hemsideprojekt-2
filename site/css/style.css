@@ -222,6 +222,33 @@ nav > ul > li > a {
       background: url('https://tatica.fedorapeople.org/Themes/F12/wallpaper-mosaico2.svg') top center no-repeat;
    }
 
+   @media screen and (max-width:990px) {
+    .content {
+      width: 1%;
+    }
+
+    .left_side_content { 
+      width: 20%;
+      margin-right: 5%;
+
+}
+
+.right_side_content {
+    
+    width: 20%;
+}
+.vr {
+  width: 0%;
+
+}
+
+#media-test{
+  width: 10%;
+}
+
+
+   }
+
 
 
 

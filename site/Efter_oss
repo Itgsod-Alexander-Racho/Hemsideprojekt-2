@@ -4,7 +4,7 @@
     <link rel="shortcut icon" href="img/shortcut.ico">
     <meta charset="UTF-8">
     <title>Nacho | Startsida</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- Optional theme -->
@@ -19,40 +19,41 @@
       </header>
       <nav>
         <img src="../misc/logga2.svg" class="logo" >
-        <ul id="menu_bar">
+        <ul class="menu_bar">
           <li>
-            <a href="index.html" class="link-3">Startsida</a>
+            <a href="index.html" class="link-3" class="media-test">Startsida</a>
           </li>
           <li>
-            <a href="program.html" class="link-3">Program</a>
+            <a href="program.html" class="link-3" class="media-test">Program</a>
           </li>
           <li>
-            <a href="Efter_oss" class="link-3">Efter oss</a>
+            <a href="Efter_oss" class="link-3" class="media-test">Efter oss</a>
           </li>
         </ul>
       </nav>
       <div id="content">
-        <img src="../misc/jobbbild.jpg" id="border_logga"  alt="jobbbild">
+        <img src="../misc/jobbbildny.jpg" id="border_logga"  alt="jobbbild">
         <h2 class="content_info">
           Efter oss
         </h2>
         <p class="content_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint temporibus porro earum praesentium tempora, blanditiis quas deserunt quae nihil animi error accusamus nesciunt! Enim itaque ut aut sapiente voluptates reiciendis, ullam nisi suscipit corrupti quibusdam velit, a laboriosam! Modi neque incidunt dolore possimus dolorem voluptate inventore dolores quod atque hic ratione, tempora, natus perspiciatis eos corporis culpa aspernatur at mollitia. Natus dolorum aliquam aut at, consequuntur sit veritatis minima laudantium voluptatibus. Vitae velit illum, maxime asperiores sequi natus, autem temporibus. Fugit nobis unde adipisci ad dolorum cumque suscipit possimus repellat quaerat necessitatibus maiores dolores, at sapiente perspiciatis nesciunt consequuntur minus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur pariatur?</p>
-        
+
       </div>
-      
+
       <div id="block">
-        
+
       </div>
-      
+
       <footer>
-        
+
         <img src="../misc/logga2.svg">
-        <span id="Copyright_color"> Nacho skolan © 2015</span>
-        <span id="Copyright_color" class="kontakta_oss"> Kontakta oss : Tel:</span>
+        <span class="copyright-media" id="Copyright_color"> Nacho skolan © 2015</span>
+        <span id="Copyright_color" class="kontakta_oss glyphicon glyphicon-phone-alt"></span>
         <span>0764366124</span>
         <span id="Copyright_color" class="Email_margin_copyright">Email:</span>
         <span>nachoskolan@hotmail.com</span>
-        
+
+
       </footer>
     </div>
   </body>

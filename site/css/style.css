@@ -1,7 +1,7 @@
 
 html, body {
     margin: 0px;
-    
+
     font-family: 'Raleway', sans-serif;
     background:#CFD8DC;
 }
@@ -19,10 +19,10 @@ html, body {
 footer {
     height: 70px;
     margin-bottom: 20px;
-    
-    background-color: #2196F3;    
+
+    background-color: #2196F3;
     width: auto;
-    display: inline-block; 
+    display: inline-block;
     width: 100%;
 
     -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 1.2);
@@ -40,7 +40,7 @@ nav {
     margin-top: 10px;
     height: 70px;
     width: auto;
-    background-color: #2196F3; 
+    background-color: #2196F3;
 
     -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 1.2);
     -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 1.2);
@@ -107,13 +107,14 @@ nav > ul > li > a {
 }
 
 .content_info {
-  margin-top: 50px; 
+  margin-top: 50px;
   text-align: left;
-  max-width: 400px;
-  max-height: 267px;
+  max-width: 600px;
+  max-height: 290px;
   float: left;
   margin-left: 40px;
- 
+  margin-bottom: 0px;
+
 }
 
 #content > h2 {
@@ -124,7 +125,7 @@ nav > ul > li > a {
   margin-left: 150px;
 }
 
-.left_side_container { 
+.left_side_container {
     width: auto;
     width: 48%;
     float: left;
@@ -132,8 +133,9 @@ nav > ul > li > a {
 
 }
 
+
 .right_side_container {
-    
+
     width: auto;
     width: 48%;
     float: left;
@@ -160,7 +162,7 @@ nav > ul > li > a {
   height: 214px;
 }
 
-#menu_bar > li {
+.menu_bar > li {
     float: left;
     margin-left: 150px;
     margin-top: 23px;
@@ -191,7 +193,7 @@ nav > ul > li > a {
 #myCarousel {
     display: inline-block; width: 100%;
     margin-top: 50px;
-          
+
     -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
     -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
     box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
@@ -222,16 +224,310 @@ nav > ul > li > a {
       background: url('https://tatica.fedorapeople.org/Themes/F12/wallpaper-mosaico2.svg') top center no-repeat;
    }
 
+   @media screen and (max-width:990px) {
+    .content {
+      width: 100%;
+    }
+
+    .left_side_content {
+      width: 20%;
+
+}
+
+  .right_side_content {
+
+    width: 80%;
+}
+  .vr {
+    width: 0%;
+
+}
+
+  .menu_bar{
+  width: 100%;
+}
+  .media-test{
+    margin-left: 100px;
+  }
+  .menu_bar > li {
+  margin-left: 50px;
+}
+
+#Copyright_color {
+  margin-left: 30px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.left_side_content > h1{
+  font-size: 20px;
+}
+
+.right_side_content > h1 {
+  font-size: 20px;
+}
+
+footer > img {
+  display: none;
+}
+
+.left_side_content > img{
+  display: none;
+
+}
+
+.left_side_content > h1{
+  height: 200px;
+  padding-top: 50px;
+}
+
+
+   }
+
+   @media screen and (max-width:575px) {
+     .content {
+       width: 100%;
+     }
+
+     .left_side_content {
+       width: 20%;
+
+ }
+
+   .right_side_content {
+
+     width: 80%;
+ }
+   .vr {
+     width: 0%;
+
+ }
+
+   .menu_bar{
+   width: 100%;
+ }
+   .media-test{
+     margin-left: 50px;
+   }
+   .menu_bar > li {
+   margin-left: 40px;
+ }
+
+ #Copyright_color {
+   margin-left: 30px;
+   height: 40px;
+   margin-top: 20px;
+ }
+
+ .left_side_content > h1{
+   font-size: 15px;
+ }
+
+ .right_side_content > h1 {
+   font-size: 15px;
+ }
 
 
 
+ footer > img {
+   display: none;
+ }
+
+ .logo {
+  display: none;
+ }
+
+.copyright-media{
+  display: none;
+}
+
+
+   }
+
+   @media screen and (max-width:465px) {
+     .content {
+       width: 100%;
+     }
+
+     .left_side_content {
+       width: 20%;
+
+ }
+
+   .right_side_content {
+
+     width: 80%;
+ }
+   .vr {
+     width: 0%;
+
+ }
+
+   .menu_bar{
+   width: 100%;
+ }
+   .media-test{
+     margin-left: 50px;
+   }
+   .menu_bar > li {
+   margin-left: 20px;
+ }
+
+ #Copyright_color {
+   margin-left: 30px;
+   height: 40px;
+   margin-top: 20px;
+ }
+
+ .left_side_content > h1{
+   font-size: 15px;
+ }
+
+ .right_side_content > h1 {
+   font-size: 15px;
+ }
 
 
 
+ footer > img {
+   display: none;
+ }
+
+ .logo {
+  display: none;
+ }
+
+.copyright-media{
+  display: none;
+}
+
+
+   }
+
+   @media screen and (max-width:405px) {
+     .content {
+       width: 100%;
+     }
+
+     .left_side_content {
+       width: 20%;
+
+ }
+
+   .right_side_content {
+
+     width: 80%;
+ }
+   .vr {
+     width: 0%;
+
+ }
+
+   .menu_bar{
+   width: 100%;
+ }
+   .media-test{
+     margin-left: 50px;
+   }
+   .menu_bar > li {
+   margin-left: 10px;
+ }
+
+ #Copyright_color {
+   margin-left: 30px;
+   height: 40px;
+   margin-top: 20px;
+ }
+
+ .left_side_content > h1{
+   font-size: 15px;
+ }
+
+ .right_side_content > h1 {
+   font-size: 15px;
+ }
 
 
 
+ footer > img {
+   display: none;
+ }
+
+ .logo {
+  display: none;
+ }
+
+.copyright-media{
+  display: none;
+}
+
+
+   }
+
+   @media screen and (max-width:375px) {
+     .content {
+       width: 100%;
+     }
+
+     .left_side_content {
+       width: 20%;
+
+ }
+
+   .right_side_content {
+
+     width: 80%;
+ }
+   .vr {
+     width: 0%;
+
+ }
+
+ nav > ul > li > a{
+   font-size: 2px;
+ }
+
+   .menu_bar{
+   width: 100%;
+ }
+   .media-test{
+     margin-left: 50px;
+   }
+   .menu_bar > li {
+   margin-left: 0px;
+ }
+
+ #Copyright_color {
+   margin-left: 30px;
+   height: 40px;
+   margin-top: 20px;
+ }
+
+ .left_side_content > h1{
+   font-size: 10px;
+ }
+
+ .right_side_content > h1 {
+   font-size: 10px;
+ }
 
 
 
+ footer > img {
+   display: none;
+ }
 
+ footer > span {
+   font-size: 10px;
+ }
+
+ .logo {
+  display: none;
+ }
+
+.copyright-media{
+  display: none;
+}
+
+
+   }

@@ -226,7 +226,6 @@ nav > ul > li > a {
 
    @media screen and (max-width:990px) {
     .content {
-<<<<<<< HEAD
       width: 100%;
     }
 
@@ -323,14 +322,14 @@ footer > img {
       width: 1%;
     }
 
-    .left_side_content { 
+    .left_side_content {
       width: 20%;
       margin-right: 5%;
 
 }
 
 .right_side_content {
-    
+
     width: 20%;
 }
 .vr {

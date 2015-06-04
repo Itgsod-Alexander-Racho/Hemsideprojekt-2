@@ -226,6 +226,7 @@ nav > ul > li > a {
 
    @media screen and (max-width:990px) {
     .content {
+<<<<<<< HEAD
       width: 100%;
     }
 
@@ -318,6 +319,33 @@ footer > img {
    height: 40px;
    margin-top: 20px;
  }
+=======
+      width: 1%;
+    }
+
+    .left_side_content { 
+      width: 20%;
+      margin-right: 5%;
+
+}
+
+.right_side_content {
+    
+    width: 20%;
+}
+.vr {
+  width: 0%;
+
+}
+
+#media-test{
+  width: 10%;
+}
+
+
+   }
+
+>>>>>>> origin/master
 
  .left_side_content > h1{
    font-size: 15px;
